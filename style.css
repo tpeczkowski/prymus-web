@@ -1,12 +1,78 @@
+body
+{
+    background-color: #99e6ff;
+
+}
+
 .naglowek
 {
     color: blue;
-
 }
 .zolty
 {
     color: yellowgreen;
     text-decoration: underline;
-
-
+}
+.naglowek:hover
+{
+    color: gold;
+    cursor: pointer;
+}
+.link
+{
+    margin: 10px;
+    width: 150px;
+    border-left: 10px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    font-style: bold;
+}
+.link:hover
+{
+    background-color: #0086b3;
+}
+.link > a
+{
+    text-decoration: none;
+    color: black;
+}
+#test
+{
+    border: 2px solid black;
+    padding: 50px;
+    background-color: aqua;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+ul
+{
+    list-style-type: none;
+}
+#sidebar
+{
+    float: left;
+    height: 800px;
+    margin-right: 25px;
+    
+}
+#container
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#content
+{
+    
+}
+#footer
+{
+    clear: both;
+    background-color: #0086b3;
+    text-align: center;
+    height: 10px;
+    padding: 50px;
 }
