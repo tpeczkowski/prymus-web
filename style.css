@@ -1,7 +1,6 @@
 body
 {
     background-color: #99e6ff;
-
 }
 
 .naglowek
@@ -28,6 +27,8 @@ body
     border-bottom: 1px solid black;
     padding: 5px;
     font-style: bold;
+    text-decoration: none;
+    color: black;
 }
 .link:hover
 {
